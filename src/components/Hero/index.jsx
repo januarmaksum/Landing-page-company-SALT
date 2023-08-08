@@ -1,4 +1,5 @@
 import styleHero from "./styleHero.module.css";
+import IconDoubleChevronDown from "../../assets/icons/icon-double-chevron-down.svg";
 
 export default function Hero() {
   return (
@@ -42,6 +43,9 @@ export default function Hero() {
             ad minim veniam.
           </p>
         </div>
+      </div>
+      <div className="absolute left-1/2 -mr-[50%] translate-y-0 -translate-x-[50%] -bottom-7 drop-shadow-md">
+        <img src={IconDoubleChevronDown} alt="icon double chevron down" />
       </div>
     </div>
   );

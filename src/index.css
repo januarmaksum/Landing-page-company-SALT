@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-about .swiper-pagination {
+  position: absolute;
+}
+
+.swiper-pagination-about {
+  color: #c0c0c0;
+  font-weight: 500;
+}
+
+.swiper-pagination-about .swiper-pagination-current {
+  font-size: 24px;
+  color: #303030;
+}
+
+.swiper-navigation-about .swiper-button-disabled {
+  background-color: #f1f1f1;
+  cursor: not-allowed !important;
+}
+
+.swiper-navigation-about .swiper-button-disabled .swiper-fill-prev,
+.swiper-navigation-about .swiper-button-disabled .swiper-fill-next {
+  fill: #b6b6b6;
+}

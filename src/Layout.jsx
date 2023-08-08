@@ -1,3 +1,4 @@
+import About from "./components/About";
 import CoreValue from "./components/CoreValue";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -8,6 +9,7 @@ function Layout() {
     <>
       <Header />
       <Hero />
+      <About />
       <CoreValue />
       <Footer />
     </>
