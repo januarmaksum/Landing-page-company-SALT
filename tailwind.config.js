@@ -23,7 +23,9 @@ export default {
         'blue-600': '#53A7E9',
         'blue-700': '#029FE4',
         'blue-800': '#1BA0E1',
-        'blue-900': '#509FDD'
+        'blue-900': '#509FDD',
+        'whitesmoke-900': '#F8F8F8',
+        'gray-700': '#777777'
       },
     }
   },
