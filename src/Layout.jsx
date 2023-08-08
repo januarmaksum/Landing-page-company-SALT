@@ -1,6 +1,7 @@
-import CoreValue from './components/CoreValue';
-import Header from './components/Header'
-import Hero from './components/Hero';
+import CoreValue from "./components/CoreValue";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function Layout() {
   return (
@@ -8,6 +9,7 @@ function Layout() {
       <Header />
       <Hero />
       <CoreValue />
+      <Footer />
     </>
   );
 }

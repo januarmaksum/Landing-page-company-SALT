@@ -31,13 +31,17 @@ export default function Hero() {
           </svg>
         </div>
       </div>
-      <div className="bg-blue-400 px-10 pb-[73px] pt-10">
-        <div className="text-4xl font-medium text-white leading-[34px] mb-4">Discover Your Wonder</div>
-        <p className="text-white text-base leading-6 md:w-3/5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam.
-        </p>
+      <div className="bg-blue-400 px-10 lg:px-0 pb-[73px] pt-10">
+        <div className="container">
+          <div className="text-4xl font-medium text-white leading-[34px] mb-4">
+            Discover Your Wonder
+          </div>
+          <p className="text-white text-base leading-6 md:w-3/5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
       </div>
     </div>
   );
