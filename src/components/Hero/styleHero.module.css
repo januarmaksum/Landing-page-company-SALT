@@ -1,0 +1,40 @@
+.triangelWrapperUp {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 2;
+}
+
+.triangelUp {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 130px;
+}
+
+.triangelWrapperBack {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.triangelBack {
+    position: relative;
+    display: block;
+    width: calc(100% + -178.7px);
+    height: 73px;
+    transform: rotateY(180deg);
+}
+
+/* @media screen (min-width: 768px) {
+    
+} */
