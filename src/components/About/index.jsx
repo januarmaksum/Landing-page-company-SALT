@@ -12,7 +12,7 @@ export default function About() {
   const paginationCurrent = useRef(null);
 
   return (
-    <div className="container pt-[40px] pb-[70px] px-12 lg:px-0 relative">
+    <div className="container pt-[40px] xl:pt-[6rem] pb-[70px] px-12 xl:px-0 relative">
       <Swiper
         className="swiper-about"
         allowTouchMove={false}
@@ -34,6 +34,12 @@ export default function About() {
           swiper.navigation.init();
           swiper.navigation.update();
         }}
+        breakpoints={{
+          1280: {
+            slidesPerView: 3,
+            spaceBetween: 40
+          },
+        }}
       >
         {dataAbout.map((item) => {
           return (
@@ -53,7 +59,7 @@ export default function About() {
           );
         })}
       </Swiper>
-      <div className="flex justify-between mt-14 items-center">
+      <div className="flex justify-between mt-14 items-center xl:hidden">
         <div className="swiper-pagination-about" ref={paginationCurrent} />
         <div className="flex swiper-navigation-about">
           <div

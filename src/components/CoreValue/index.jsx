@@ -4,7 +4,7 @@ import { dataCoreValue } from "../../data";
 export default function CoreValue() {
   return (
     <div className="overflow-hidden bg-[#F8F8F8]">
-      <div className="container relative pt-14 px-[25px] lg:px-0">
+      <div className="container relative pt-14 px-[25px] xl:px-0">
         <h2 className="whitesmoke-900 text-blue-700 text-4xl font-medium text-center leading-[30px] mb-6">
           Our Core Values
         </h2>
