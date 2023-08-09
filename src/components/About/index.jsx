@@ -12,7 +12,7 @@ export default function About() {
   const paginationCurrent = useRef(null);
 
   return (
-    <div className="container pt-[40px] xl:pt-[6rem] pb-[70px] px-12 xl:px-0 relative">
+    <div className="container pt-[50px] xl:pt-[6rem] pb-[70px] px-12 xl:px-0 relative">
       <Swiper
         className="swiper-about"
         allowTouchMove={false}
