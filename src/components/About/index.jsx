@@ -1,6 +1,6 @@
+import "swiper/css";
 import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import { Pagination, Navigation } from "swiper/modules";
 import { dataAbout } from "../../data";
 
@@ -37,7 +37,7 @@ export default function About() {
           return (
             <SwiperSlide key={item.title}>
               <div>
-                <h2 className="whitesmoke-900 text-blue-700 text-4xl font-medium leading-[30px] mb-6">
+                <h2 className="text-blue-700 text-4xl font-medium leading-[30px] mb-6">
                   {item.title}
                 </h2>
                 <h3 className="text-black text-lg leading-[38px]">

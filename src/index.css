@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.swiper-about .swiper-pagination {
-  position: absolute;
-}
-
 .swiper-pagination-about {
   color: #c0c0c0;
   font-weight: 500;
@@ -24,4 +20,25 @@
 .swiper-navigation-about .swiper-button-disabled .swiper-fill-prev,
 .swiper-navigation-about .swiper-button-disabled .swiper-fill-next {
   fill: #b6b6b6;
+}
+
+.swiper-navigation-speciality .swiper-button-disabled .swiper-fill-prev,
+.swiper-navigation-speciality .swiper-button-disabled .swiper-fill-next {
+  fill: #D2D2D2;
+}
+
+.swiper-speciality .swiper-slide:not(.swiper-slide-active) .swiper-title-speciality {
+  display: none;
+}
+
+.swiper-pagination-speciality .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #509FDD;
+  margin: 0 8px !important;
+}
+
+.swiper-pagination-speciality .swiper-pagination-bullet-active {
+  background-color: white;
+  border: 2px solid #3D46A2;
 }

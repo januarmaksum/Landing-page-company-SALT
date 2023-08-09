@@ -1,3 +1,7 @@
+import IconSpeedImprove from "./assets/images/speed-improvements.svg";
+import IconAccesories from "./assets/images/accesories.svg";
+import IconExhaust from "./assets/images/exhaust.svg";
+
 export const dataAbout = [
   {
     title: "Who we are",
@@ -34,5 +38,20 @@ export const dataCoreValue = [
     title: "Curiosity",
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.",
+  },
+];
+
+export const dataSpeciality = [
+  {
+    title: "Accesories",
+    icon: IconAccesories,
+  },
+  {
+    title: "Speed Improvement",
+    icon: IconSpeedImprove,
+  },
+  {
+    title: "Exhaust",
+    icon: IconExhaust,
   },
 ];
