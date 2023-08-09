@@ -12,12 +12,12 @@ export default function Speciality() {
   const paginationCurrent = useRef(null);
 
   return (
-    <div className="bg-blue-900 py-[35px] px-[20px]">
+    <div className="bg-blue-900 py-[35px] xl:py-20 px-[20px]">
       <div className="container bg-white py-[42px] px-[33px]">
-        <h2 className="text-blue-700 text-2xl font-bold mb-3">
+        <h2 className="text-blue-700 text-2xl font-bold mb-3 xl:text-center">
           OUR SPECIALITY
         </h2>
-        <p className="text-[#303030] text-sm font-light">
+        <p className="text-[#303030] text-sm font-light xl:w-3/5 xl:mx-auto xl:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod
           libero vel leo auctor, in venenatis nulla consequat. Sed commodo nunc
           sit amet congue aliquam.
@@ -41,13 +41,19 @@ export default function Speciality() {
             swiper.navigation.init();
             swiper.navigation.update();
           }}
+          breakpoints={{
+            1280: {
+              slidesPerView: 3,
+              spaceBetween: 40
+            },
+          }}
         >
           {dataSpeciality.map((item) => {
             return (
               <SwiperSlide key={item.title}>
                 <div className="text-center">
                   <img src={item.icon} alt={item.title} className="mx-auto" />
-                  <h2 className="text-[#333333] text-sm font-medium leading-[30px] mb-6 swiper-title-speciality">
+                  <h2 className="text-[#333333] text-sm xl:text-lg xl:mt-4 font-medium leading-[30px] mb-6 swiper-title-speciality">
                     {item.title}
                   </h2>
                 </div>
@@ -55,12 +61,12 @@ export default function Speciality() {
             );
           })}
         </Swiper>
-        <p className="text-gray-700 text-sm leading-6 font-light text-center">
+        <p className="text-gray-700 text-sm leading-6 font-light text-center xl:w-3/6 xl:mx-auto">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod
           libero vel leo auctor, in venenatis nulla consequat. Sed commodo nunc
           sit amet congue aliquam.
         </p>
-        <div className="flex justify-between mt-[40px] -mx-[20px] items-center swiper-navigation-speciality">
+        <div className="flex justify-between mt-[40px] -mx-[20px] items-center swiper-navigation-speciality xl:hidden">
           <div
             className="w-[46px] h-[46px] flex items-center justify-center cursor-pointer"
             ref={navigationPrevRef}

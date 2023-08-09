@@ -24,21 +24,31 @@
 
 .swiper-navigation-speciality .swiper-button-disabled .swiper-fill-prev,
 .swiper-navigation-speciality .swiper-button-disabled .swiper-fill-next {
-  fill: #D2D2D2;
+  fill: #d2d2d2;
 }
 
-.swiper-speciality .swiper-slide:not(.swiper-slide-active) .swiper-title-speciality {
+.swiper-speciality
+  .swiper-slide:not(.swiper-slide-active)
+  .swiper-title-speciality {
   display: none;
 }
 
 .swiper-pagination-speciality .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
-  background-color: #509FDD;
+  background-color: #509fdd;
   margin: 0 8px !important;
 }
 
 .swiper-pagination-speciality .swiper-pagination-bullet-active {
   background-color: white;
-  border: 2px solid #3D46A2;
+  border: 2px solid #3d46a2;
+}
+
+@media screen and (min-width: 1280px) {
+  .swiper-speciality
+    .swiper-slide:not(.swiper-slide-active)
+    .swiper-title-speciality {
+    display: block;
+  }
 }
