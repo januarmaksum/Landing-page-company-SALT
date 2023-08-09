@@ -1,8 +1,10 @@
-import "swiper/css";
 import { useRef } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { dataAbout } from "../../data";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 export default function About() {
   const navigationPrevRef = useRef(null);

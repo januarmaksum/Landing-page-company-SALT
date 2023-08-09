@@ -1,9 +1,10 @@
+import { useRef } from "react";
+import { Pagination, Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { dataSpeciality } from "../../data";
 import "swiper/css";
 import "swiper/css/pagination";
-import { useRef } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper/modules";
-import { dataSpeciality } from "../../data";
+import "swiper/css/navigation";
 
 export default function Speciality() {
   const navigationPrevRef = useRef(null);
