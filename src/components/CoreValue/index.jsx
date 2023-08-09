@@ -3,9 +3,10 @@ import { dataCoreValue } from "../../data";
 
 export default function CoreValue() {
   return (
-    <div className="overflow-hidden bg-[#F8F8F8]">
+    <div className="lg:bg-[#F8F8F8] lg:pb-14">
+      <div className="overflow-hidden bg-[#F8F8F8] lg:bg-transparent lg:grid lg:grid-flow-col lg:grid-cols-2 lg:container">
       <div className="container relative pt-14 px-[25px] xl:px-0">
-        <h2 className="whitesmoke-900 text-blue-700 text-4xl font-medium text-center leading-[30px] mb-6">
+        <h2 className="whitesmoke-900 text-blue-700 text-4xl font-medium text-center lg:text-left leading-[30px] mb-6">
           Our Core Values
         </h2>
         <p className="text-base text-gray-700 tracking-[.16px] mb-4">
@@ -31,9 +32,10 @@ export default function CoreValue() {
           })}
         </ul>
       </div>
-      <div className="flex justify-end relative -right-20 mt-9">
+      <div className="flex justify-end relative -right-20 lg:max-w-xl:right-0 xl:-right-20 mt-9">
         <img src={BgIllustration} alt="background illustration" />
       </div>
+    </div>
     </div>
   );
 }

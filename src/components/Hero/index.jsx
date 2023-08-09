@@ -4,7 +4,7 @@ import IconDoubleChevronDown from "../../assets/icons/icon-double-chevron-down.s
 export default function Hero() {
   return (
     <div className="relative">
-      <div className="bg-hero-background bg-no-repeat h-60 md:h-96 xl:h-[450px] bg-bottom lg:bg-center bg-cover relative">
+      <div className="bg-hero-background bg-no-repeat h-60 md:h-96 xl:h-[450px] 2xl:h-[630px] bg-bottom lg:bg-center bg-cover relative">
         <div className={styleHero.triangelWrapperUp}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
